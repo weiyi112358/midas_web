@@ -1,0 +1,217 @@
+.indeone{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:50%;
+    z-index: 1000;
+    transform:translateY(-50%);
+    -ms-transform:translateY(-50%); 	/* IE 9 */
+    -moz-transform:translateY(-50%); 	/* Firefox */
+    -webkit-transform:translateY(-50%); /* Safari 和 Chrome */
+    -o-transform:translateY(-50%); 	/* Opera */
+}
+.indeone>span{
+    display: block;
+    text-align: center;
+    color:#fff;
+}
+.indeone>span:first-child{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.indeone>span:nth-child(2){
+    font-size: 24px;
+}
+.indeone>span:nth-child(2)>span{
+    color:#d9b96c;
+}
+.indtwo{
+    font-size: 0;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    position: absolute;
+    width: 1500px;
+    top:130px;
+    left: 0;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top:50%;*/
+    /*transform:translateY(-50%);*/
+    /*-ms-transform:translateY(-50%); 	!* IE 9 *!*/
+    /*-moz-transform:translateY(-50%); 	!* Firefox *!*/
+    /*-webkit-transform:translateY(-50%); !* Safari 和 Chrome *!*/
+    /*-o-transform:translateY(-50%); 	!* Opera *!*/
+}
+.indtwo>div{
+    width: 300px;
+    height: 480px;
+    display: inline-block;
+    box-sizing: border-box;
+    /*background: #eee;*/
+}
+.int_box{
+    padding: 0 2%;
+vertical-align: top;
+}
+.int_box>img{
+    width: 80%;
+    height: 182px;
+    border-radius: 50%;
+    /*background: #eee;*/
+    margin: 0 auto;
+    display: block;
+}
+.int_name{
+    line-height: 24px;
+    margin: 10px 0;
+}
+.int_box>span{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #323232;
+}
+.int_con{
+    border-top: 1px solid #e4dde2;
+    padding: 16px 10px;
+    line-height: 24px;
+    display: block;
+    font-size: 14px;
+}
+.int_con>div{
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.int_dian{
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #313131;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    position: absolute;
+    top:10px;
+    left: 0;
+}
+.indthree_tit{
+    width: 1200px;
+}
+.indthree{
+    font-size: 0;
+    margin: 60px 0;
+}
+.indthree_tit>span{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    color:#d9b96c;
+    line-height: 80px;
+}
+.indthree_line{
+    height: 6px;
+    width: 150px;
+    margin: 0 auto;
+    background: #d9b96c;
+}
+.inth_way{
+    width: 80px;
+    height: 260px;
+    display: inline-block;
+    position: relative;
+    background: #e4dde2;
+}
+.inth_way>img{
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    top:50%;
+    transform:translateY(-50%);
+    -ms-transform:translateY(-50%); 	/* IE 9 */
+    -moz-transform:translateY(-50%); 	/* Firefox */
+    -webkit-transform:translateY(-50%); /* Safari 和 Chrome */
+    -o-transform:translateY(-50%); 	/* Opera */
+}
+.wayright{
+    margin-right: 20px;
+}
+.wayleft{
+    margin-left: 20px;
+}
+.wayright:hover{
+    background: -webkit-linear-gradient(to right,#bbb, #ebebeb); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(to right,#bbb, #ebebeb); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(to right,#bbb, #ebebeb); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#bbb, #ebebeb); /* 标准的语法 */
+}
+.wayleft:hover{
+    background: -webkit-linear-gradient(to left,#bbb, #ebebeb); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(to left,#bbb, #ebebeb); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(to left,#bbb, #ebebeb); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to left,#bbb, #ebebeb); /* 标准的语法 */
+}
+.inth_box{
+    width: 1000px;
+    overflow: hidden;
+    font-size: 0;
+    display: inline-block;
+    /*margin-left: 100px;*/
+    position: relative;
+    height: 260px;
+    overflow: hidden;
+}
+.inth_box>div{
+    width: 250px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 2%;
+    position: absolute;
+    top:0;
+    background: #fff;
+}
+.inth_box>div>img{
+   height: 260px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #ddd;
+}
+.hasmore{
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    line-height: 40px;
+    background: #d9b96c;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.img_con{
+    width: 80%;
+    height: 24%;
+    background-color: rgba(218, 185, 106, 0.7);
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    font-size: 16px;
+    color:#fff;
+    z-index: 400;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.img_con>span{
+    display: block;
+    text-align: center;
+}
+.offschool>span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    margin: 0 4px;
+}

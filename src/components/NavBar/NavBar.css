@@ -1,0 +1,49 @@
+header{
+    background: #000001;
+    height: 80px;
+    font-size: 18px;
+    color:#fff;
+}
+.head{
+    width: 1200px;
+    margin: 0 auto;
+}
+.headimg{
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+    margin-right: 60px;
+}
+.headimg>img{
+    width: 210px;
+}
+.headlist{
+    display: inline-block;
+}
+.headlist>a{
+    color:#fff;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 20px;
+}
+.headlist>a:hover:after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: red;
+    margin: 0 auto;
+}
+.headlist>a.ac{
+    color:#d9b96c;
+}
+.foot{
+    width: 100%;
+    min-width: 1200px;
+    height: 290px;
+    overflow: hidden;
+}

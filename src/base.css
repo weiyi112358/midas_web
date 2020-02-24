@@ -1,0 +1,109 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, sumary {
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{font-weight: normal;}
+html,body{background:#FFF;font-family: PingFangSC-Regular;}
+ol, ul {
+    list-style: none
+}
+a{
+	text-decoration: none;
+}
+input, select, textarea,button{
+    font-size: 100%;
+    -webkit-appearance: none;
+    appearance:none;
+    border:0;
+}
+input,button{
+    outline: none;
+}
+/* 清楚浮动*/
+.clearfix:after{content: "";display: block;clear: both;}
+/*检查页面的标签是否闭合  */
+.clearfix{zoom: 1;}
+.fl {
+    float: left
+}
+.fr {
+    float: right
+}
+.flb{display: -webkit-box;display: flex;display: -ms-flexbox;display: -webkit-flex;}
+/*.full{*/
+    /*width: 100%;*/
+    /*min-width: 1200px;*/
+/*}*/
+.width800{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.width1200{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.width1600{
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+}
+.wid800{
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.widthBackground{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    height: 100px;
+
+
+}
+
+/*编写自定义数据*/
+.full{
+    width: 100%;
+    min-width: 1200px;
+    /*background: #eee;*/
+}
+/* body{
+    font-size: 0;
+} */
+
+/*pages分页*/
+.pagelist{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    color: #323232;
+    margin-bottom: 50px;
+}
+.addnum{
+    padding: 0 10px;
+}
+.pagelist>span.pageac{
+    padding: 5px 10px;
+    background: #d9b96c;
+    margin-left: 10px;
+    display: inline-block;
+    color: #fff;
+}
+.pagelist>span.page{
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+.pagelist>span.page:hover{
+    background: #ddd;
+}
+.pagelist>span.pagefirst{
+    display: none;
+}

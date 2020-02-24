@@ -1,0 +1,44 @@
+.whyus{
+    padding: 50px 0;
+}
+.whyus>div{
+    display: inline-block;
+}
+.whyuscon{
+    font-size: 16px;
+    width: 620px;
+    vertical-align: middle;
+    margin-left: 16px;
+    margin-right: 40px;
+}
+.whyuscon>span{
+    display: block;
+    width: 100%;
+    /* text-align: center; */
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #d9b96c;
+}
+.whyuscon>p{
+    text-indent: 2em;
+    line-height: 32px;
+}
+#cas{
+    vertical-align: middle;
+}
+.whyusani{
+    width: 300px;
+    height: 300px;
+    vertical-align: middle;
+    position: relative;
+    font-size: 16px;
+    color: #d9b96c;
+}
+#myCanvas{
+    vertical-align: middle;
+}
+#div1{height:300px;width:400px; position:relative; margin:10px auto;}
+#div1 span{position:absolute;top:0px;left:0px;color:#d9b96c;font-weight:bold;padding:3px 6px;
+    transform: scale(1,1);
+    transition: tranform .2s linear;
+}

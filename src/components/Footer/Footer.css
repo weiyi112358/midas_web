@@ -1,0 +1,57 @@
+.footer{
+    font-size: 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.footer>div{
+    display: inline-block;
+    vertical-align: text-top;
+    font-size: 14px;
+    line-height: 30px;
+}
+.fotone{
+    width: 400px;
+    padding-left: 50px;
+}
+.fotone>img{
+    width: 200px;
+}
+.fotone>p{
+    display: block;
+    width: 300px;
+    color: #fff;
+    line-height: 24px;
+}
+.fottwo{
+    width: 140px;
+}
+.fotthree{
+    width: 375px;
+    font-size: 14px;
+    padding-left: 25px;
+}
+.fotfour{
+    width: 200px;
+}
+.fotfour>img{
+    width: 140px;
+    height: 140px;
+    background: #eee;
+    display: block;
+}
+.footer>div>.fot-hea-tit{
+    color:#d9b96c;
+}
+.fottwo>span,a{
+    display: block;
+    color: #fff;
+}
+.fotthree>span{
+    display: block;
+    color: #fff;
+}
+
+.footerBg{
+
+    background: #28292a;
+}
